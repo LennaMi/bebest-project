@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Aniversário 💛</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+
+<audio id="bgMusic">
+  <source src="audio/liniker.m4a" type="audio/mpeg">
+</audio>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero fade-in">
+    <h1>Feliz Aniversário, Bebest ™ 🎂</h1>
+    <p>Voce merece tantas coisas incriveis... mas eu resolvi te fazer um site.</p>
+    <a href="#memorias" class="scroll-btn">↓ Arrasta </a>
+  </section>
+
+  <!-- MEMÓRIAS -->
+  <section id="memorias" class="gallery fade-in">
+    <h2>Galeria dos Bebests mais lindos do universo 📸</h2>
+
+    <div class="grid">
+      <img src="images/foto1.jpg" alt="">
+      <img src="images/foto2.jpg" alt="">
+      <img src="images/foto3.jpg" alt="">
+      <img src="images/foto4.jpg" alt="">
+      <img src="images/foto5.jpg" alt="">
+      <img src="images/foto6.jpg" alt="">
+      <img src="images/foto7.jpg" alt="">
+      <img src="images/foto8.jpg" alt="">
+      <img src="images/foto9.jpg" alt="">
+      <img src="images/foto10.jpg" alt="">
+      
+    </div>
+  </section>
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/pgDY_xpIoMY?si=f2tXirYtD_GKyQeY"
+    title="Mensagem"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+  <!-- CARTA -->
+  <section class="letter fade-in">
+  <div class="letter-container">
+    <h2>Agora falando sério (ou quase) 💌</h2>
+
+    <p>Best,</p>
+    <p>
+      Nem nos meus melhores sonhos eu poderia imaginar encontrar um melhor amigo como você.
+      <strong>Eu nunca achei que teria, algum dia, alguém para chamar de “melhor amigo”.</strong>
+    </p>
+
+    <p>
+      Cresci acreditando que ser amada por quem eu sou, sem rodeios e sem máscaras,
+      era tão difícil quanto levantar da cama numa manhã fria para ir trabalhar.
+    </p>
+
+    <p><strong>Mas então você apareceu.</strong></p>
+
+    <p>
+      Primeiro como uma voz em um servidor do Discord — tímido, mas que,
+      sem dúvidas, já demonstrava ter o córtex pré-frontal plenamente desenvolvido.
+      E, gradualmente, foi se tornando o meu maior motivo para ligar o computador
+      e relaxar a cabeça depois de um dia estressante.
+    </p>
+
+    <p>
+      Já vivíamos o segundo ano da pandemia, e eu tinha a sensação de que a minha vida
+      nunca mais seria a mesma. <strong>E, de fato, nunca foi.</strong>
+    </p>
+
+    <p>
+      Ali, eu expunha minha maior insegurança disfarçada de indiferença.
+      Mas então você decidiu me ver.
+      <strong>Com os olhos e com a alma.</strong>
+    </p>
+
+    <p>
+      Essa é a maior lição que você me ensinou:
+      <strong>a coragem de ser vista — e amada.</strong>
+    </p>
+
+    <p>
+      Se eu pudesse descrever a sensação de ser sua melhor amiga,
+      diria que é como ser atingida pelo raio de sol perfeito numa tarde de inverno —
+      aquele momento em que estico a palma das mãos para cima
+      esperando o calor irradiar pelo meu corpo.
+    </p>
+
+    <p>
+      <strong>Você é a minha certeza de conforto.  
+      De casa.  
+      De amor.</strong>
+    </p>
+
+    <p class="final-line">
+      FELIZ ANIVERSÁRIO.
+    </p>
+
+    <p>Com muito amor,<br>Bebest.</p>
+
+  </div>
+</section>
+
+  <!-- TICKETS -->
+  <section class="tickets fade-in" id="tickets">
+
+  <div class="ticket-intro">
+    <h2>Antes de continuar...</h2><br>
+    <p>
+      Algumas coisas não cabem em mensagens. <br>
+      Algumas experiências precisam ser vividas.
+    </p>
+
+    <button onclick="startReveal()">
+      Clique apenas quando estiver pronto.
+    </button>
+  </div>
+
+  <div id="revealStage" class="reveal-stage hidden">
+
+    <p class="reveal-text">
+      Durante MESES…<br>
+      a gente falou sobre músicas,<br>
+      letras,<br>
+      sentimentos.
+    </p>
+
+    <p class="reveal-text delay">
+      Então eu pensei…<br>
+      Você correria atras de mim em um aeroporto?
+        </p>
+
+    <button class="final-btn" onclick="showTicket()">
+      Abrir presente 🎁
+    </button>
+
+    <!-- IMAGE REVEAL -->
+    <div id="ticketImageContainer" class="ticket-image hidden">
+      <img src="images/ticket.jpg" alt="Ingressos Liniker">
+      <p class="ticket-caption"> Vive isso pela gente? 💛</p>
+    </div>
+
+    <p class="ending-text">
+  True friends are never apart, maybe in distance but never in heart.
+</p>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
