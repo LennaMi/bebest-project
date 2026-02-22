@@ -353,7 +353,7 @@ html {
 
 .video-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 900px;
   margin: 80px auto;
 }
 
