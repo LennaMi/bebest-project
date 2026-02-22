@@ -353,14 +353,14 @@ html {
 
 .video-container {
   width: 100%;
-  max-width: 900px;
+  max-width: 100%;
   margin: 80px auto;
-  text-align: center;
 }
 
 .video-container iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
+  height: auto;
   border-radius: 18px;
   border: none;
 }
